@@ -1,0 +1,20 @@
+Source: selenium-server
+Section: unknown
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: http://www.seleniumhq.org/
+Vcs-Git: https://github.com/SeleniumHQ/selenium.git
+Vcs-Browser: https://github.com/SeleniumHQ/selenium.git
+
+Package: selenium-server
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, default-jdk
+Description: It is for automating web applications for testing purposes
+ portable software-testing framework for web applications. Selenium provides 
+ a record/playback tool for authoring tests without the need to learn a test 
+ scripting language (Selenium IDE). It also provides a test domain-specific 
+ language (Selenese) to write tests in a number of popular programming 
+ languages, including C#, Groovy, Java, Perl, PHP, Python, Ruby and Scala. 
+ The tests can then run against most modern web browsers. 
