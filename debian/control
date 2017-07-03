@@ -1,5 +1,5 @@
 Source: selenium-server
-Section: unknown
+Section: devel
 Priority: optional
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
 Build-Depends: debhelper (>= 9)
