@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="selenium">
+        <df name="cpp">
+          <df name="iedriver">
+            <df name="CommandHandlers">
+              <in>AcceptAlertCommandHandler.cpp</in>
+              <in>AddCookieCommandHandler.cpp</in>
+              <in>ClearElementCommandHandler.cpp</in>
+              <in>ClickElementCommandHandler.cpp</in>
+              <in>CloseWindowCommandHandler.cpp</in>
+              <in>DeleteAllCookiesCommandHandler.cpp</in>
+              <in>DeleteCookieCommandHandler.cpp</in>
+              <in>DismissAlertCommandHandler.cpp</in>
+              <in>ElementEqualsCommandHandler.cpp</in>
+              <in>ExecuteAsyncScriptCommandHandler.cpp</in>
+              <in>ExecuteScriptCommandHandler.cpp</in>
+              <in>FindChildElementCommandHandler.cpp</in>
+              <in>FindChildElementsCommandHandler.cpp</in>
+              <in>FindElementCommandHandler.cpp</in>
+              <in>FindElementsCommandHandler.cpp</in>
+              <in>GetActiveElementCommandHandler.cpp</in>
+              <in>GetAlertTextCommandHandler.cpp</in>
+              <in>GetAllCookiesCommandHandler.cpp</in>
+              <in>GetAllWindowHandlesCommandHandler.cpp</in>
+              <in>GetCurrentUrlCommandHandler.cpp</in>
+              <in>GetCurrentWindowHandleCommandHandler.cpp</in>
+              <in>GetElementAttributeCommandHandler.cpp</in>
+              <in>GetElementLocationCommandHandler.cpp</in>
+              <in>GetElementLocationOnceScrolledIntoViewCommandHandler.cpp</in>
+              <in>GetElementSizeCommandHandler.cpp</in>
+              <in>GetElementTagNameCommandHandler.cpp</in>
+              <in>GetElementTextCommandHandler.cpp</in>
+              <in>GetElementValueOfCssPropertyCommandHandler.cpp</in>
+              <in>GetPageSourceCommandHandler.cpp</in>
+              <in>GetSessionCapabilitiesCommandHandler.cpp</in>
+              <in>GetTitleCommandHandler.cpp</in>
+              <in>GetWindowPositionCommandHandler.cpp</in>
+              <in>GetWindowSizeCommandHandler.cpp</in>
+              <in>GoBackCommandHandler.cpp</in>
+              <in>GoForwardCommandHandler.cpp</in>
+              <in>GoToUrlCommandHandler.cpp</in>
+              <in>IsElementDisplayedCommandHandler.cpp</in>
+              <in>IsElementEnabledCommandHandler.cpp</in>
+              <in>IsElementSelectedCommandHandler.cpp</in>
+              <in>MaximizeWindowCommandHandler.cpp</in>
+              <in>MouseButtonDownCommandHandler.cpp</in>
+              <in>MouseButtonUpCommandHandler.cpp</in>
+              <in>MouseClickCommandHandler.cpp</in>
+              <in>MouseDoubleClickCommandHandler.cpp</in>
+              <in>MouseMoveToCommandHandler.cpp</in>
+              <in>NewSessionCommandHandler.cpp</in>
+              <in>QuitCommandHandler.cpp</in>
+              <in>RefreshCommandHandler.cpp</in>
+              <in>ScreenshotCommandHandler.cpp</in>
+              <in>SendKeysCommandHandler.cpp</in>
+              <in>SendKeysToActiveElementCommandHandler.cpp</in>
+              <in>SendKeysToAlertCommandHandler.cpp</in>
+              <in>SetAlertCredentialsCommandHandler.cpp</in>
+              <in>SetAsyncScriptTimeoutCommandHandler.cpp</in>
+              <in>SetImplicitWaitTimeoutCommandHandler.cpp</in>
+              <in>SetTimeoutCommandHandler.cpp</in>
+              <in>SetWindowPositionCommandHandler.cpp</in>
+              <in>SetWindowSizeCommandHandler.cpp</in>
+              <in>SubmitElementCommandHandler.cpp</in>
+              <in>SwitchToFrameCommandHandler.cpp</in>
+              <in>SwitchToParentFrameCommandHandler.cpp</in>
+              <in>SwitchToWindowCommandHandler.cpp</in>
+            </df>
+            <in>Alert.cpp</in>
+            <in>AsyncScriptExecutor.cpp</in>
+            <in>Browser.cpp</in>
+            <in>BrowserCookie.cpp</in>
+            <in>BrowserFactory.cpp</in>
+            <in>CommandHandlerRepository.cpp</in>
+            <in>CookieManager.cpp</in>
+            <in>DocumentHost.cpp</in>
+            <in>Element.cpp</in>
+            <in>ElementFinder.cpp</in>
+            <in>ElementRepository.cpp</in>
+            <in>FileUtilities.cpp</in>
+            <in>HookProcessor.cpp</in>
+            <in>HtmlDialog.cpp</in>
+            <in>IECommandExecutor.cpp</in>
+            <in>IECommandHandler.cpp</in>
+            <in>IEServer.cpp</in>
+            <in>IESession.cpp</in>
+            <in>InputManager.cpp</in>
+            <in>InteractionsManager.cpp</in>
+            <in>ProxyManager.cpp</in>
+            <in>RegistryUtilities.cpp</in>
+            <in>Script.cpp</in>
+            <in>StringUtilities.cpp</in>
+            <in>VariantUtilities.cpp</in>
+            <in>WebDriver.cpp</in>
+            <in>WindowUtilities.cpp</in>
+            <in>stdafx.cpp</in>
+          </df>
+          <df name="iedriverserver">
+            <in>CommandLineArguments.cpp</in>
+            <in>IEDriverServer.cpp</in>
+            <in>stdafx.cpp</in>
+          </df>
+          <df name="imehandler">
+            <df name="linux">
+              <df name="src">
+                <in>ibushandler.cpp</in>
+                <in>ibusutils.cpp</in>
+              </df>
+            </df>
+            <df name="windows">
+              <df name="src">
+                <in>winapihandler.cc</in>
+                <in>winapiutils.cc</in>
+              </df>
+            </df>
+          </df>
+          <df name="linux-specific">
+            <in>x_ignore_nofocus.c</in>
+          </df>
+          <df name="webdriver-interactions">
+            <in>event_firing_thread.cpp</in>
+            <in>interaction_utils.cpp</in>
+            <in>interactions.cpp</in>
+            <in>interactions_common.cpp</in>
+            <in>interactions_linux.cpp</in>
+            <in>interactions_linux_common.cpp</in>
+            <in>interactions_linux_mouse.cpp</in>
+            <in>translate_keycode_linux.cpp</in>
+          </df>
+          <df name="webdriver-server">
+            <in>command.cc</in>
+            <in>precompile.cc</in>
+            <in>response.cc</in>
+            <in>server.cc</in>
+            <in>uri_info.cc</in>
+          </df>
+        </df>
+        <df name="third_party">
+          <df name="cpp">
+            <df name="civetweb">
+              <in>CivetServer.cpp</in>
+              <in>civetweb.c</in>
+            </df>
+            <df name="json-cpp">
+              <df name="src">
+                <in>jsoncpp.cpp</in>
+              </df>
+            </df>
+          </df>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="selenium/cpp/iedriver/Alert.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/AsyncScriptExecutor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/Browser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/BrowserCookie.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/BrowserFactory.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlerRepository.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/AcceptAlertCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/AddCookieCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/ClearElementCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/ClickElementCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/CloseWindowCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/DeleteAllCookiesCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/DeleteCookieCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/DismissAlertCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/ElementEqualsCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/ExecuteAsyncScriptCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/ExecuteScriptCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/FindChildElementCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/FindChildElementsCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/FindElementCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/FindElementsCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetActiveElementCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetAlertTextCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetAllCookiesCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetAllWindowHandlesCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetCurrentUrlCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetCurrentWindowHandleCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetElementAttributeCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetElementLocationCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetElementLocationOnceScrolledIntoViewCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetElementSizeCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetElementTagNameCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetElementTextCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetElementValueOfCssPropertyCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetPageSourceCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetSessionCapabilitiesCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetTitleCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetWindowPositionCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GetWindowSizeCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GoBackCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GoForwardCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/GoToUrlCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/IsElementDisplayedCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/IsElementEnabledCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/IsElementSelectedCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/MaximizeWindowCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/MouseButtonDownCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/MouseButtonUpCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/MouseClickCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/MouseDoubleClickCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/MouseMoveToCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/NewSessionCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/QuitCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/RefreshCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/ScreenshotCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/SendKeysCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/SendKeysToActiveElementCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/SendKeysToAlertCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/SetAlertCredentialsCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/SetAsyncScriptTimeoutCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/SetImplicitWaitTimeoutCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/SetTimeoutCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/SetWindowPositionCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/SetWindowSizeCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/SubmitElementCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/SwitchToFrameCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/SwitchToParentFrameCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CommandHandlers/SwitchToWindowCommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/CookieManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/DocumentHost.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/Element.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/ElementFinder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/ElementRepository.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/FileUtilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/HookProcessor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/HtmlDialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/IECommandExecutor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/IECommandHandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/IEServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/IESession.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/InputManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/InteractionsManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/ProxyManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/RegistryUtilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/Script.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/StringUtilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/VariantUtilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/WebDriver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/WindowUtilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriver/stdafx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriverserver/CommandLineArguments.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriverserver/IEDriverServer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/iedriverserver/stdafx.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/imehandler/linux/src/ibushandler.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/imehandler/linux/src/ibusutils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/imehandler/windows/src/winapihandler.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/imehandler/windows/src/winapiutils.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/linux-specific/x_ignore_nofocus.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/webdriver-interactions/event_firing_thread.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/webdriver-interactions/interaction_utils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/webdriver-interactions/interactions.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/webdriver-interactions/interactions_common.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/webdriver-interactions/interactions_linux.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/webdriver-interactions/interactions_linux_common.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/webdriver-interactions/interactions_linux_mouse.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/webdriver-interactions/translate_keycode_linux.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/webdriver-server/command.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/webdriver-server/precompile.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/webdriver-server/response.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/webdriver-server/server.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/cpp/webdriver-server/uri_info.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/third_party/cpp/civetweb/CivetServer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="selenium/third_party/cpp/civetweb/civetweb.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="selenium/third_party/cpp/json-cpp/src/jsoncpp.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

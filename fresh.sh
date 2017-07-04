@@ -14,3 +14,7 @@ cd selenium
 git fetch --tags --force
 TAG=`git tag | tail -n 1| sed ':a;N;$!ba;s/\n/ /g'`
 git checkout tags/$TAG
+
+cd ..
+
+./get-chromedriver.sh

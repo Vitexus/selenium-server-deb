@@ -18,3 +18,14 @@ Description: It is for automating web applications for testing purposes
  language (Selenese) to write tests in a number of popular programming 
  languages, including C#, Groovy, Java, Perl, PHP, Python, Ruby and Scala. 
  The tests can then run against most modern web browsers. 
+
+Package: selenium-chromedriver
+Architecture: amd64
+Suggests: php-codeception
+Depends: ${shlibs:Depends}, ${misc:Depends}, selenium-server
+Description: Open source tool for automated testing using chrome WebDriver
+ Provide capabilities for navigating to web pages, user input, JavaScript 
+ execution, and more.  ChromeDriver is a standalone server which implements 
+ WebDriver's wire protocol for Chromium. ChromeDriver is available for Chrome 
+ on Android and Chrome on Desktop (Mac, Linux, Windows and ChromeOS).  
+
