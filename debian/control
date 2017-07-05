@@ -2,7 +2,7 @@ Source: selenium-server
 Section: devel
 Priority: optional
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9), curl, devscripts, default-jdk-headless
 Standards-Version: 3.9.8
 Homepage: http://www.seleniumhq.org/
 Vcs-Git: https://github.com/SeleniumHQ/selenium.git
@@ -10,7 +10,7 @@ Vcs-Browser: https://github.com/SeleniumHQ/selenium.git
 
 Package: selenium-server
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, default-jdk
+Depends: ${shlibs:Depends}, ${misc:Depends}, default-jre-headless
 Description: It is for automating web applications for testing purposes
  portable software-testing framework for web applications. Selenium provides 
  a record/playback tool for authoring tests without the need to learn a test 
@@ -22,7 +22,7 @@ Description: It is for automating web applications for testing purposes
 Package: selenium-chromedriver
 Architecture: amd64
 Suggests: php-codeception
-Depends: ${shlibs:Depends}, ${misc:Depends}, selenium-server
+Depends: ${shlibs:Depends}, ${misc:Depends}, selenium-server,libgconf-2-4
 Description: Open source tool for automated testing using chrome WebDriver
  Provide capabilities for navigating to web pages, user input, JavaScript 
  execution, and more.  ChromeDriver is a standalone server which implements 

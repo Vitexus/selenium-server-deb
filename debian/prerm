@@ -16,6 +16,10 @@ set -e
 # for details, see https://www.debian.org/doc/debian-policy/ or
 # the debian-policy package
 
+if [ -x "/etc/init.d/selenium-server" ]; then
+	invoke-rc.d selenium-server stop || exit $?
+fi
+
 
 case "$1" in
     remove|upgrade|deconfigure)

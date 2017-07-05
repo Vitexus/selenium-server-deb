@@ -19,8 +19,17 @@ set -e
 # the debian-policy package
 
 
+if [ "$1" = "purge" ] ; then
+	update-rc.d selenium-server remove >/dev/null
+fi
+
 case "$1" in
-    purge|remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+    purge)
+        userdel selenium-server || true
+        rm -rf /var/lib/selenium-server /var/log/selenium-server /var/run/selenium-server
+    ;;
+
+    remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
     ;;
 
     *)

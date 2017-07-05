@@ -20,6 +20,21 @@ set -e
 
 case "$1" in
     configure)
+        # Create selenium-server user if it doesn't exist.
+        if ! id selenium-server > /dev/null 2>&1 ; then
+            adduser --system --home /var/lib/selenium-server --no-create-home \
+                --ingroup nogroup --disabled-password --shell /bin/bash \
+                selenium-server
+        fi
+	
+        # directories needed for selenium-server
+        chown selenium-server:adm /var/lib/selenium-server /var/log/selenium-server
+        chmod 750         /var/lib/selenium-server /var/log/selenium-server
+
+        # make sure selenium-server can delete everything in /var/run/selenium-server to re-explode war
+        chown -R selenium-server:adm /var/run/selenium-server
+        chmod -R 750         /var/run/selenium-server
+
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
