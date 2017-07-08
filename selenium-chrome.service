@@ -1,0 +1,17 @@
+# /etc/systemd/system/selenium.service
+
+[Unit]
+Description=Selenium Standalone Server
+Requires=xvfb.service
+After=xvfb.service
+
+[Service]
+Type=simple
+User=selenium-server
+
+Environment=DISPLAY=:99
+ExecStart=/usr/bin/selenium-server-chrome > /var/log/selenium-server/server.log 2> /var/log/selenium-server/error.log &
+
+
+[Install]
+WantedBy=multi-user.target

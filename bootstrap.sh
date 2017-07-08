@@ -4,12 +4,10 @@ echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/vitexsoftware.list
 
 export DEBIAN_FRONTEND="noninteractive"
 apt-get update
-apt-get install -y build-essential devscripts curl default-jdk-headless gdebi-core  mc
+apt-get install -y build-essential devscripts curl default-jdk-headless gdebi-core libgconf-2-4 libgconf2-dev mc htop screen aptitude
 cd /vagrant
 make deb
 gdebi -n ../selenium-server_*.deb
-gdebi -n ../selenium-server-chrome_*.deb
-
-
-
+gdebi -n ../selenium-chromedriver_*.deb
+service selenium-chrome start
 

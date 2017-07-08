@@ -26,6 +26,8 @@ case "$1" in
                 --ingroup nogroup --disabled-password --shell /bin/bash \
                 selenium-server
         fi
+
+	mkdir -p /var/lib/selenium-server /var/log/selenium-server /var/run/selenium-server
 	
         # directories needed for selenium-server
         chown selenium-server:adm /var/lib/selenium-server /var/log/selenium-server

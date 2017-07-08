@@ -17,4 +17,3 @@ git checkout tags/$TAG
 
 cd ..
 
-./get-chromedriver.sh
