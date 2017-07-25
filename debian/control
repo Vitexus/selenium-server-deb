@@ -9,7 +9,7 @@ Vcs-Git: https://github.com/SeleniumHQ/selenium.git
 Vcs-Browser: https://github.com/SeleniumHQ/selenium.git
 
 Package: selenium-server
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, default-jre-headless, daemon, net-tools
 Description: It is for automating web applications for testing purposes
  portable software-testing framework for web applications. Selenium provides 
